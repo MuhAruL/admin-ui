@@ -16,7 +16,7 @@ const MyList = () => {
         <Widget type="earning"/>
         
     </div>
-        <MyDatatable/>
+        <MyDatatable title/>
       </div>
     </div>
   );
