@@ -49,7 +49,7 @@ const Sidebar = () => {
       </Link>
       <p className="title">LIST</p>
       <Link to="/users">
-        <li>
+        <li data-testid="users">
         <PersonIcon className="icon"/>
           <span>Users</span>
         </li>
@@ -89,4 +89,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
